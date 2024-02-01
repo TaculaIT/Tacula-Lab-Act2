@@ -33,7 +33,7 @@ function Topmenu(){
   return(
     <div className='menubar'>
       <div className='topnav'>
-      <a>Games</a>
+      <a className='red'>Games</a>
       <a>Retro</a>
       <a>Flash</a>
       <div className='topnav-right'>
@@ -50,7 +50,7 @@ function Sort(){
     <div className='sortbar'>
       <div className='topnav'>
       <a>Sort by:</a>
-      <a>All</a>
+      <a className='red'>All</a>
       <a>FNAF</a>
       <a>Moto X3M</a>
       <a>Snail Bob</a>

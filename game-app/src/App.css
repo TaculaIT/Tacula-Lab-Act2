@@ -6,6 +6,9 @@
 	  text-align: center;
 	  color: red;
 }
+.red{
+  background-color: #ad0000;
+}
 
 body {
   background-color: #1c1c1d;
