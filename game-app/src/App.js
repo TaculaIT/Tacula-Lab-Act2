@@ -25,6 +25,7 @@ function Title(){
     <div className=''>
       <h1 className='text-center'>All games</h1>
       <p>Lists of games on this site that the CICS Wifi does not block! Enjoy!</p>
+      <p className='text-important'>A red game tile means it is popular!</p>
     </div>
   );
 }
@@ -33,12 +34,14 @@ function Topmenu(){
   return(
     <div className='menubar'>
       <div className='topnav'>
-      <a className='red'>Games</a>
+      <a className='active'>Games</a>
       <a>Retro</a>
       <a>Flash</a>
       <div className='topnav-right'>
         <a><img src="feedback.png" alt="feedback" width={15} height={15}></img></a>
         <a><img src="info.png" alt="feedback" width={15} height={15}></img></a>
+        <a>Hide</a>
+        <a>11:34:56</a>
       </div>
     </div>
     </div>
@@ -50,7 +53,7 @@ function Sort(){
     <div className='sortbar'>
       <div className='topnav'>
       <a>Sort by:</a>
-      <a className='red'>All</a>
+      <a className='active'>All</a>
       <a>FNAF</a>
       <a>Moto X3M</a>
       <a>Snail Bob</a>
